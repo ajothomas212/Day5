@@ -1,13 +1,13 @@
 
 <div class="body">
-<div class="container mt-4">
-    @for(item of data; track item.id) {
-      <div style="display: flex; align-items: center;">
-        <input type="checkbox" style="margin-right: 5px;">
-        <label class="strikethrough" style="margin-left: 5px;"><h3>{{ item.title }}</h3></label>
-      </div>
-      <br>
-    }
+  <div class="container mt-2">
+      @for(item of data; track item.id) {
+        <div style="display: flex; align-items: center;margin:-9px">
+          <input type="checkbox" style="margin: right 5px; ">
+          <label class="strikethrough" style="margin-left: 9px;"><h3>{{ item.title }} </h3></label>
+        </div>
+        <br>
+      }
+    </div>
   </div>
-</div>
 
